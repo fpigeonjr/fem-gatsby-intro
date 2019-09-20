@@ -1,5 +1,6 @@
 import React from 'react';
 import { Global, css } from '@emotion/core';
+import Header from './header';
 
 const Layout = ({ children }) => (
   <>
@@ -47,7 +48,7 @@ const Layout = ({ children }) => (
         }
       `}
     />
-    <header></header>
+    <Header />
     <main
       css={css`
         margin: 2rem auto 4rem;
